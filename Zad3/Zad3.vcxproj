@@ -115,6 +115,44 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Lista2\Lista2\AddTableCommand.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\CCommand.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\CloneTableCommand.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\CMenu.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\CMenuCommand.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\CMenuItem.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\Constants.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\CTable.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\CTableCommand.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\CTableManager.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\DelallTableCommand.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\DelTableCommand.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\LengthTableCommand.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\NumberUtils.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\PrintCommand.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\PrintTableCommand.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\RenameTableCommand.h" />
+    <ClInclude Include="..\..\Lista2\Lista2\ValueTableCommand.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Lista2\Lista2\AddTableCommand.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\CCommand.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\CloneTableCommand.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\CMenu.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\CMenuCommand.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\CMenuItem.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\CTable.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\CTableCommand.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\CTableManager.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\DelallTableCommand.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\DelTableCommand.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\LengthTableCommand.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\Main.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\NumberUtils.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\PrintCommand.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\PrintTableCommand.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\RenameTableCommand.cpp" />
+    <ClCompile Include="..\..\Lista2\Lista2\ValueTableCommand.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
